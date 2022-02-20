@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+    <author>Falkkor</author>
+    <version>1.1.0.0</version>
+    
+    <title>
+        <en>Snap Build</en>
+    </title>
+    
+    <description>
+        <en><![CDATA[This mod for FS22 enables any building to snap at 45 degree angle rotation increments when placing it.]]></en>
+        <de><![CDATA[Dieser Mod für FS22 ermöglicht es jedem Gebäude, beim Platzieren in 45-Grad-Winkelrotationsschritten einzurasten.]]></de>
+        <fr><![CDATA[Ce mod pour FS22 permet à n'importe quel bâtiment de s'accrocher à des incréments de rotation d'angle de 45 degrés lors de son placement.]]></fr>
+    </description>
+    
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true" />
+    
+    <extraSourceFiles>
+        <sourceFile filename="snapBuild.lua" />
+    </extraSourceFiles>
+    
+    <l10n>
+        <text name="input_SNAPBUILD">
+			<en>Snap Build</en>
+			<de>Schnapp Bauen</de>
+			<fr>Se Casser Construire</fr>
+		</text>
+		<text name="SNAPBUILD_ACTIVE">
+			<en>Snap Build: On</en>
+			<de>Schnapp Bauen: On</de>
+			<fr>Se Casser Construire: On</fr>
+		</text>
+		<text name="SNAPBUILD_INACTIVE">
+			<en>Snap Build: Off</en>
+			<de>Schnapp Bauen: Aus</de>
+			<fr>Se Casser Construire: Off</fr>
+		</text>
+	</l10n>
+
+    <actions>
+        <action name="SNAPBUILD" category="SYSTEM" ignoreComboMask="false" />
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="SNAPBUILD">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_6" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+    </inputBinding>
+</modDesc>
