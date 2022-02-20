@@ -3,6 +3,6 @@
 ```
 Changelog:
     - v1.1.0.0 
-        - GIANTS ModHub Release
+        - GIANTS ModHub Submission
         - GitHub Release
 ```
