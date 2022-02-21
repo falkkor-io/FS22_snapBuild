@@ -3,7 +3,7 @@
 
 #### Latest version can be downloaded here: [v1.0.0.0](https://falkkor.io/FS22_snapBuild.zip)
 
-![Snap Build Screenshot](/screenshots/snapbuild__screen_1.jpg)
+![Snap Build Screenshot](/screenshots/snapbuild_screen_1.jpg)
 
 ```
 Changelog:
