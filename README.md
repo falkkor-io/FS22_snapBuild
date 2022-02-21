@@ -1,4 +1,9 @@
-## This mod for FS22 enables any building to snap at 45 degree angle rotation increments when placing it. 
+# Snap Build
+### This mod for FS22 enables any building to snap at 45 degree angle rotation increments when placing it. 
+
+#### Latest version can be downloaded here: [v1.0.0.0](https://falkkor.io/FS22_snappingAnimalsPack.zip)
+
+![Snap Build Screenshot](/screenshots/snap_build__screen1.jpg)
 
 ```
 Changelog:
