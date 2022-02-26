@@ -21,29 +21,28 @@
     </extraSourceFiles>
     
     <l10n>
-        <text name="input_SNAPBUILD">
-			<en>Snap Build</en>
-			<de>Schnapp Bauen</de>
-			<fr>Se Casser Construire</fr>
+        <text name="SNAPBUILD_POSITION">
+			<en>Snap Build Position: </en>
+			<de>Schnapp Bauen Position: </de>
+			<fr>Se Casser Construire Position: </fr>
 		</text>
-		<text name="SNAPBUILD_ACTIVE">
-			<en>Snap Build: On</en>
-			<de>Schnapp Bauen: On</de>
-			<fr>Se Casser Construire: On</fr>
-		</text>
-		<text name="SNAPBUILD_INACTIVE">
-			<en>Snap Build: Off</en>
-			<de>Schnapp Bauen: Aus</de>
-			<fr>Se Casser Construire: Off</fr>
+        <text name="SNAPBUILD_ROTATION">
+			<en>Snap Build Rotation: </en>
+			<de>Schnapp Bauen Rotation: </de>
+			<fr>Se Casser Construire Rotation: </fr>
 		</text>
 	</l10n>
 
     <actions>
-        <action name="SNAPBUILD" category="SYSTEM" ignoreComboMask="false" />
+        <action name="SNAPBUILD_POSITION" category="SYSTEM" ignoreComboMask="false" />
+        <action name="SNAPBUILD_ROTATION" category="SYSTEM" ignoreComboMask="false" />
     </actions>
 
     <inputBinding>
-        <actionBinding action="SNAPBUILD">
+        <actionBinding action="SNAPBUILD_POSITION">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_5" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="SNAPBUILD_ROTATION">
             <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_6" axisComponent="+" neutralInput="0" index="1"/>
         </actionBinding>
     </inputBinding>
