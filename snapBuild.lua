@@ -76,8 +76,8 @@ function SnapBuild:registerMenuActionEventsRotation()
 end
 
 function SnapBuild:updateMenuActionTexts()
-    self.inputManager:setActionEventText(self.snapBuildButtonEventPosition, g_i18n:getText("SNAPBUILD_POSITION")..SnapBuild.POSITION)
-    self.inputManager:setActionEventText(self.snapBuildButtonEventRotation, g_i18n:getText("SNAPBUILD_ROTATION")..SnapBuild.ROTATION)
+    self.inputManager:setActionEventText(self.snapBuildButtonEventPosition, g_i18n:getText("SNAPBUILD_POSITION").." "..SnapBuild.POSITION.."px")
+    self.inputManager:setActionEventText(self.snapBuildButtonEventRotation, g_i18n:getText("SNAPBUILD_ROTATION").." "..SnapBuild.ROTATION.."°")
 end
 
 function SnapBuild:onLoad(superFunc, ...)
