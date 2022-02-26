@@ -29,7 +29,7 @@ function SnapBuild:onButtonSnapBuildPosition()
     elseif SnapBuild.POSITION == 5 then 
         SnapBuild.POSITION = 0
     end
-    self:updateMenuActionTextsPosition()
+    self:updateMenuActionTextPosition()
 end
 
 function SnapBuild:onButtonSnapBuildRotation()
@@ -44,7 +44,7 @@ function SnapBuild:onButtonSnapBuildRotation()
     elseif SnapBuild.ROTATION == 90 then
         SnapBuild.ROTATION = 0
     end
-    self:updateMenuActionTextsRotation()
+    self:updateMenuActionTextRotation()
 end
 
 function SnapBuild:registerMenuActionEventsPosition()
