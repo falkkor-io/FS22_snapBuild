@@ -46,13 +46,13 @@
 
     <inputBinding>
         <actionBinding action="SNAPBUILD_RESET">
-            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_5" axisComponent="+" neutralInput="0" index="1"/>
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_4" axisComponent="+" neutralInput="0" index="1"/>
         </actionBinding>
         <actionBinding action="SNAPBUILD_POSITION">
-            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_6" axisComponent="+" neutralInput="0" index="1"/>
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_5" axisComponent="+" neutralInput="0" index="1"/>
         </actionBinding>
         <actionBinding action="SNAPBUILD_ROTATION">
-            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_7" axisComponent="+" neutralInput="0" index="1"/>
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_6" axisComponent="+" neutralInput="0" index="1"/>
         </actionBinding>
     </inputBinding>
 </modDesc>
