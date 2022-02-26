@@ -55,7 +55,7 @@ end
 
 function SnapBuild:registerMenuActionEventsReset()
     local _, eventIdReset = nil
-    _, eventIdReset = self.inputManager:registerActionEvent(InputAction.SNAPBUILD_Reset, self, self.onButtonSnapBuildReset, false, true, false, true)
+    _, eventIdReset = self.inputManager:registerActionEvent(InputAction.SNAPBUILD_RESET, self, self.onButtonSnapBuildReset, false, true, false, true)
 
     self.inputManager:setActionEventTextPriority(eventIdReset, GS_PRIO_VERY_LOW)
     self.inputManager:setActionEventTextVisibility(eventIdReset, true)
