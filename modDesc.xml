@@ -36,6 +36,21 @@
 			<de>Schnapp Bauen Rotation:</de>
 			<fr>Se Casser Construire Rotation:</fr>
 		</text>
+        <text name="input_SNAPBUILD_RESET">
+			<en>Snap Build Reset</en>
+			<de>Schnapp Bauen Reset</de>
+			<fr>Se Casser Construire Reset</fr>
+		</text>
+        <text name="input_SNAPBUILD_POSITION">
+			<en>Snap Build Position:</en>
+			<de>Schnapp Bauen Position:</de>
+			<fr>Se Casser Construire Position:</fr>
+		</text>
+        <text name="input_SNAPBUILD_ROTATION">
+			<en>Snap Build Rotation:</en>
+			<de>Schnapp Bauen Rotation:</de>
+			<fr>Se Casser Construire Rotation:</fr>
+		</text>
 	</l10n>
 
     <actions>
