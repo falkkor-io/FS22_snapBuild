@@ -1,16 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="63">
     <author>Falkkor</author>
-    <version>1.1.0.0</version>
+    <version>1.2.0.0</version>
     
     <title>
         <en>Snap Build</en>
     </title>
     
     <description>
-        <en><![CDATA[This mod for FS22 enables any building to snap at 30°, 45°, 60° or 90° rotation angles and 0.5-5px positions when placing it.]]></en>
-        <de><![CDATA[Dieser Mod für FS22 ermöglicht es jedem Gebäude, beim Platzieren in 45-Grad-Winkelrotationsschritten einzurasten.]]></de>
-        <fr><![CDATA[Ce mod pour FS22 permet à n'importe quel bâtiment de s'accrocher à des incréments de rotation d'angle de 45 degrés lors de son placement.]]></fr>
+        <en><![CDATA[This mod for FS22 enables any building to snap at 30°, 45°, 60° or 90° rotation angles and 0.5-5px positions when placing it.
+        Changelog:
+            - v1.2.0.0
+                - ModHub Release]]></en>
+        <de><![CDATA[Dieser Mod für FS22 ermöglicht es jedem Gebäude, bei 30°, 45°, 60° oder 90° Rotationswinkeln und 0,5-5px Positionen einzurasten, wenn es platziert wird.
+        Changelog:
+            - v1.2.0.0
+                - ModHub Release]]></de>
+        <fr><![CDATA[Ce mod pour FS22 permet à n'importe quel bâtiment de s'accrocher à des angles de rotation de 30°, 45°, 60° ou 90° et à des positions de 0,5 à 5 pixels lors de son placement.
+        Changelog:
+            - v1.2.0.0
+                - ModHub Release]]></fr>
     </description>
     
     <iconFilename>icon.dds</iconFilename>
@@ -24,22 +33,22 @@
         <text name="SNAPBUILD_POSITION">
 			<en>Snap Build Position:</en>
 			<de>Schnapp Bauen Position:</de>
-			<fr>Se Casser Construire Position:</fr>
+			<fr>Création Instantanée Position:</fr>
 		</text>
         <text name="SNAPBUILD_ROTATION">
 			<en>Snap Build Rotation:</en>
 			<de>Schnapp Bauen Rotation:</de>
-			<fr>Se Casser Construire Rotation:</fr>
+			<fr>Création Instantanée Rotation:</fr>
 		</text>
         <text name="input_SNAPBUILD_POSITION">
 			<en>Snap Build Position:</en>
 			<de>Schnapp Bauen Position:</de>
-			<fr>Se Casser Construire Position:</fr>
+			<fr>Création Instantanée Position:</fr>
 		</text>
         <text name="input_SNAPBUILD_ROTATION">
 			<en>Snap Build Rotation:</en>
 			<de>Schnapp Bauen Rotation:</de>
-			<fr>Se Casser Construire Rotation:</fr>
+			<fr>Création Instantanée Rotation:</fr>
 		</text>
 	</l10n>
 
