@@ -6,7 +6,7 @@
 
 SnapBuild = {
     POSITION = 0,
-    ROTATION = 5
+    ROTATION = 0
 }
 
 function SnapBuild.prerequisitesPresent(specializations)
@@ -15,6 +15,8 @@ end
 
 function SnapBuild:onButtonSnapBuildPosition()
     if SnapBuild.POSITION == 0 then 
+        SnapBuild.POSITION = 0.5
+    elseif SnapBuild.POSITION == 0.5 then 
         SnapBuild.POSITION = 1
     elseif SnapBuild.POSITION == 1 then 
         SnapBuild.POSITION = 2
@@ -31,9 +33,7 @@ function SnapBuild:onButtonSnapBuildPosition()
 end
 
 function SnapBuild:onButtonSnapBuildRotation()
-    if SnapBuild.ROTATION == 5 then
-        SnapBuild.ROTATION = 15
-    elseif SnapBuild.ROTATION == 15 then
+    if SnapBuild.ROTATION == 0 then
         SnapBuild.ROTATION = 30
     elseif SnapBuild.ROTATION == 30 then
         SnapBuild.ROTATION = 45
@@ -42,7 +42,7 @@ function SnapBuild:onButtonSnapBuildRotation()
     elseif SnapBuild.ROTATION == 60 then
         SnapBuild.ROTATION = 90
     elseif SnapBuild.ROTATION == 90 then
-        SnapBuild.ROTATION = 5
+        SnapBuild.ROTATION = 0
     end
     self:updateMenuActionTexts()
 end
