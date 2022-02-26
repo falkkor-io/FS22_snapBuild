@@ -47,6 +47,26 @@ function SnapBuild:onButtonSnapBuildRotation()
     self:updateMenuActionTexts()
 end
 
+function SnapBuild:onButtonSnapBuildReset()
+    SnapBuild.ROTATION = 0
+    SnapBuild.POSITION = 0
+    self:updateMenuActionTexts()
+end
+
+function SnapBuild:registerMenuActionEventsReset()
+    local _, eventIdReset = nil
+    _, eventIdReset = self.inputManager:registerActionEvent(InputAction.SNAPBUILD_Reset, self, self.onButtonSnapBuildReset, false, true, false, true)
+
+    self.inputManager:setActionEventTextPriority(eventIdReset, GS_PRIO_VERY_LOW)
+    self.inputManager:setActionEventTextVisibility(eventIdReset, true)
+
+    self.snapBuildButtonEventReset = eventIdReset
+
+    table.insert(self.menuEvents, eventIdReset)
+
+    self:updateMenuActionTexts()
+end
+
 function SnapBuild:registerMenuActionEventsPosition()
     local _, eventIdPosition = nil
     _, eventIdPosition = self.inputManager:registerActionEvent(InputAction.SNAPBUILD_POSITION, self, self.onButtonSnapBuildPosition, false, true, false, true)
@@ -87,15 +107,18 @@ function SnapBuild:onLoad(superFunc, ...)
     spec.rotationSnapAngle = math.abs(xmlFile:getValue("placeable.placement#placementRotationSnapAngle", SnapBuild.ROTATION))
 end
 
+ConstructionScreen.registerMenuActionEvents = Utils.appendedFunction(ConstructionScreen.registerMenuActionEvents, SnapBuild.registerMenuActionEventsReset)
 ConstructionScreen.registerMenuActionEvents = Utils.appendedFunction(ConstructionScreen.registerMenuActionEvents, SnapBuild.registerMenuActionEventsPosition)
+ConstructionScreen.registerMenuActionEvents = Utils.appendedFunction(ConstructionScreen.registerMenuActionEvents, SnapBuild.registerMenuActionEventsRotation)
 ConstructionScreen.updateMenuActionTexts = Utils.appendedFunction(ConstructionScreen.updateMenuActionTexts, SnapBuild.updateMenuActionTexts)
+
+if ConstructionScreen.onButtonSnapBuildReset == nil then
+    ConstructionScreen.onButtonSnapBuildReset = SnapBuild.onButtonSnapBuildReset
+end
 
 if ConstructionScreen.onButtonSnapBuildPosition == nil then
     ConstructionScreen.onButtonSnapBuildPosition = SnapBuild.onButtonSnapBuildPosition
 end
-
-ConstructionScreen.registerMenuActionEvents = Utils.appendedFunction(ConstructionScreen.registerMenuActionEvents, SnapBuild.registerMenuActionEventsRotation)
-ConstructionScreen.updateMenuActionTexts = Utils.appendedFunction(ConstructionScreen.updateMenuActionTexts, SnapBuild.updateMenuActionTexts)
 
 if ConstructionScreen.onButtonSnapBuildRotation == nil then
     ConstructionScreen.onButtonSnapBuildRotation = SnapBuild.onButtonSnapBuildRotation
