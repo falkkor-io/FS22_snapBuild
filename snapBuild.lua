@@ -50,6 +50,7 @@ end
 function SnapBuild:onButtonSnapBuildReset()
     SnapBuild.ROTATION = 0
     SnapBuild.POSITION = 0
+    ConstructionScreen.removeBrushActionEvents()
     self:updateMenuActionTexts()
 end
 
