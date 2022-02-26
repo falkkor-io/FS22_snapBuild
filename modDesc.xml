@@ -21,12 +21,12 @@
     </extraSourceFiles>
     
     <l10n>
-        <text name="SNAPBUILD_POSITION">
+        <text name="input_SNAPBUILD_POSITION">
 			<en>Snap Build Position: </en>
 			<de>Schnapp Bauen Position: </de>
 			<fr>Se Casser Construire Position: </fr>
 		</text>
-        <text name="SNAPBUILD_ROTATION">
+        <text name="input_SNAPBUILD_ROTATION">
 			<en>Snap Build Rotation: </en>
 			<de>Schnapp Bauen Rotation: </de>
 			<fr>Se Casser Construire Rotation: </fr>
