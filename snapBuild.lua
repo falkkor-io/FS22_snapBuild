@@ -108,17 +108,21 @@ function SnapBuild:onLoad(superFunc, ...)
 end
 
 ConstructionScreen.registerMenuActionEvents = Utils.appendedFunction(ConstructionScreen.registerMenuActionEvents, SnapBuild.registerMenuActionEventsReset)
-ConstructionScreen.registerMenuActionEvents = Utils.appendedFunction(ConstructionScreen.registerMenuActionEvents, SnapBuild.registerMenuActionEventsPosition)
-ConstructionScreen.registerMenuActionEvents = Utils.appendedFunction(ConstructionScreen.registerMenuActionEvents, SnapBuild.registerMenuActionEventsRotation)
 ConstructionScreen.updateMenuActionTexts = Utils.appendedFunction(ConstructionScreen.updateMenuActionTexts, SnapBuild.updateMenuActionTexts)
 
 if ConstructionScreen.onButtonSnapBuildReset == nil then
     ConstructionScreen.onButtonSnapBuildReset = SnapBuild.onButtonSnapBuildReset
 end
 
+ConstructionScreen.registerMenuActionEvents = Utils.appendedFunction(ConstructionScreen.registerMenuActionEvents, SnapBuild.registerMenuActionEventsPosition)
+ConstructionScreen.updateMenuActionTexts = Utils.appendedFunction(ConstructionScreen.updateMenuActionTexts, SnapBuild.updateMenuActionTexts)
+
 if ConstructionScreen.onButtonSnapBuildPosition == nil then
     ConstructionScreen.onButtonSnapBuildPosition = SnapBuild.onButtonSnapBuildPosition
 end
+
+ConstructionScreen.registerMenuActionEvents = Utils.appendedFunction(ConstructionScreen.registerMenuActionEvents, SnapBuild.registerMenuActionEventsRotation)
+ConstructionScreen.updateMenuActionTexts = Utils.appendedFunction(ConstructionScreen.updateMenuActionTexts, SnapBuild.updateMenuActionTexts)
 
 if ConstructionScreen.onButtonSnapBuildRotation == nil then
     ConstructionScreen.onButtonSnapBuildRotation = SnapBuild.onButtonSnapBuildRotation
