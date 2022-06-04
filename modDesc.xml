@@ -1,19 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="64">
+<modDesc descVersion="66">
     <author>Falkkor</author>
-    <version>1.0.0.0</version>
+
+    <version>1.1.0.0</version>
     
     <title>
         <en>Snap Build</en>
     </title>
     
     <description>
-        <en><![CDATA[This mod for FS22 enables any building to snap at 30°, 45°, 60° or 90° rotation angles and 0.5-5px positions when placing it.]]></en>
-        <de><![CDATA[Dieser Mod für FS22 ermöglicht es jedem Gebäude, bei 30°, 45°, 60° oder 90° Rotationswinkeln und 0,5-5px Positionen einzurasten, wenn es platziert wird.]]></de>
-        <fr><![CDATA[Ce mod pour FS22 permet à n'importe quel bâtiment de s'accrocher à des angles de rotation de 30°, 45°, 60° ou 90° et à des positions de 0,5 à 5 pixels lors de son placement.]]></fr>
+        <en>
+            <![CDATA[This mod for FS22 enables any placeable building or object to snap at 5°, 10°, 15°, 30°, 45°, 60°, 90° or 180° rotation angles and 0.5px, 1px, 2px, 3px, 4px, 5px, 10px and 20px grid spacing positions when placing.
+
+            Instructions for use: 
+                - Go into construction mode
+                - Set Snap Build angle and position (default keys ALT+5 and ALT+6)
+                - Select building to be placed
+                - Set rotation of building (default with mouse right click or RB/LB on gamepad)
+                - Place building 
+
+            Changelog v1.1.0.0:
+                - Added more snap angle options
+                - Added more snap grid spacing options
+                - ModDesc version increased
+                - Minor performance improvements
+                - Added instructions in description]]>
+        </en>
+        <de><![CDATA[Dieser Mod für FS22 ermöglicht es jedem platzierbaren Gebäude oder Objekt, bei 5°, 10°, 15°, 30°, 45°, 60°, 90° oder 180° Rotationswinkeln und 0,5px, 1px, 2px, 3px, 4px zu schnappen, 5px, 10px und 20px Rasterabstandspositionen beim Platzieren.
+
+             Gebrauchsanweisung:
+                 - Gehen Sie in den Baumodus
+                 - Snap-Build-Winkel und -Position festlegen (Standardtasten ALT+5 und ALT+6)
+                 - Zu platzierendes Gebäude auswählen
+                 - Drehung des Gebäudes festlegen (standardmäßig mit Maus-Rechtsklick oder RB/LB auf dem Gamepad)
+                 - Gebäude platzieren
+
+             Änderungsprotokoll v1.1.0.0:
+                 - Weitere Fangwinkeloptionen hinzugefügt
+                 - Weitere Snap-Grid-Abstandsoptionen hinzugefügt
+                 - ModDesc-Version erhöht
+                 - Kleinere Leistungsverbesserungen
+                 - Anweisungen in der Beschreibung hinzugefügt]]>
+        </de>
+        <fr><![CDATA[Ce mod pour FS22 permet à tout bâtiment ou objet placable de s'enclencher à 5°, 10°, 15°, 30°, 45°, 60°, 90° ou 180° angles de rotation et 0.5px, 1px, 2px, 3px, 4px, Positions d'espacement de grille de 5px, 10px et 20px lors du placement.
+
+             Mode d'emploi:
+                 - Passer en mode construction
+                 - Définir l'angle et la position de Snap Build (touches par défaut ALT+5 et ALT+6)
+                 - Sélectionnez le bâtiment à placer
+                 - Définir la rotation du bâtiment (par défaut avec le clic droit de la souris ou RB/LB sur la manette)
+                 - Placer la construction
+
+             Journal des modifications v1.1.0.0:
+                 - Ajout de plus d'options d'angle d'accrochage
+                 - Ajout de plus d'options d'espacement de la grille d'accrochage
+                 - Version ModDesc augmentée
+                 - Améliorations mineures des performances
+                 - Ajout d'instructions dans la description]]>
+        </fr>
     </description>
     
     <iconFilename>icon.dds</iconFilename>
+
     <multiplayer supported="true" />
     
     <extraSourceFiles>

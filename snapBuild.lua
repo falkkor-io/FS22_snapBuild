@@ -27,6 +27,12 @@ function SnapBuild:onButtonSnapBuildPosition()
     elseif SnapBuild.POSITION == 4 then 
         SnapBuild.POSITION = 5
     elseif SnapBuild.POSITION == 5 then 
+        SnapBuild.POSITION = 10
+    elseif SnapBuild.POSITION == 10 then 
+        SnapBuild.POSITION = 15
+    elseif SnapBuild.POSITION == 15 then 
+        SnapBuild.POSITION = 20
+    elseif SnapBuild.POSITION == 20 then 
         SnapBuild.POSITION = 0
     end
     self:updateMenuActionTexts()
@@ -34,6 +40,12 @@ end
 
 function SnapBuild:onButtonSnapBuildRotation()
     if SnapBuild.ROTATION == 0 then
+        SnapBuild.ROTATION = 5
+    elseif SnapBuild.ROTATION == 5 then
+        SnapBuild.ROTATION = 10
+    elseif SnapBuild.ROTATION == 10 then
+        SnapBuild.ROTATION = 15
+    elseif SnapBuild.ROTATION == 15 then
         SnapBuild.ROTATION = 30
     elseif SnapBuild.ROTATION == 30 then
         SnapBuild.ROTATION = 45
@@ -42,6 +54,8 @@ function SnapBuild:onButtonSnapBuildRotation()
     elseif SnapBuild.ROTATION == 60 then
         SnapBuild.ROTATION = 90
     elseif SnapBuild.ROTATION == 90 then
+        SnapBuild.ROTATION = 180
+    elseif SnapBuild.ROTATION == 180 then
         SnapBuild.ROTATION = 0
     end
     self:updateMenuActionTexts()
