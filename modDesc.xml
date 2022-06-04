@@ -24,39 +24,45 @@
                 - Added more snap grid spacing options
                 - ModDesc version increased
                 - Minor performance improvements
-                - Added instructions in description]]>
+                - Added instructions in description
+                
+            For further information, suggestions or support please visit <a href="https://github.com/falkkor-io/FS22_snapBuild">GitHub</a>.]]>
         </en>
         <de><![CDATA[Dieser Mod für FS22 ermöglicht es jedem platzierbaren Gebäude oder Objekt, bei 5°, 10°, 15°, 30°, 45°, 60°, 90° oder 180° Rotationswinkeln und 0,5px, 1px, 2px, 3px, 4px zu schnappen, 5px, 10px und 20px Rasterabstandspositionen beim Platzieren.
 
-             Gebrauchsanweisung:
-                 - Gehen Sie in den Baumodus
-                 - Snap-Build-Winkel und -Position festlegen (Standardtasten ALT+5 und ALT+6)
-                 - Zu platzierendes Gebäude auswählen
-                 - Drehung des Gebäudes festlegen (standardmäßig mit Maus-Rechtsklick oder RB/LB auf dem Gamepad)
-                 - Gebäude platzieren
+            Gebrauchsanweisung:
+                - Gehen Sie in den Baumodus
+                - Snap-Build-Winkel und -Position festlegen (Standardtasten ALT+5 und ALT+6)
+                - Zu platzierendes Gebäude auswählen
+                - Drehung des Gebäudes festlegen (standardmäßig mit Maus-Rechtsklick oder RB/LB auf dem Gamepad)
+                - Gebäude platzieren
 
-             Änderungsprotokoll v1.1.0.0:
-                 - Weitere Fangwinkeloptionen hinzugefügt
-                 - Weitere Snap-Grid-Abstandsoptionen hinzugefügt
-                 - ModDesc-Version erhöht
-                 - Kleinere Leistungsverbesserungen
-                 - Anweisungen in der Beschreibung hinzugefügt]]>
+            Änderungsprotokoll v1.1.0.0:
+                - Weitere Fangwinkeloptionen hinzugefügt
+                - Weitere Snap-Grid-Abstandsoptionen hinzugefügt
+                - ModDesc-Version erhöht
+                - Kleinere Leistungsverbesserungen
+                - Anweisungen in der Beschreibung hinzugefügt
+                 
+            Für weitere Informationen, Anregungen oder Unterstützung besuchen Sie bitte <a href="https://github.com/falkkor-io/FS22_snapBuild">GitHub</a>.]]>
         </de>
         <fr><![CDATA[Ce mod pour FS22 permet à tout bâtiment ou objet placable de s'enclencher à 5°, 10°, 15°, 30°, 45°, 60°, 90° ou 180° angles de rotation et 0.5px, 1px, 2px, 3px, 4px, Positions d'espacement de grille de 5px, 10px et 20px lors du placement.
 
-             Mode d'emploi:
-                 - Passer en mode construction
-                 - Définir l'angle et la position de Snap Build (touches par défaut ALT+5 et ALT+6)
-                 - Sélectionnez le bâtiment à placer
-                 - Définir la rotation du bâtiment (par défaut avec le clic droit de la souris ou RB/LB sur la manette)
-                 - Placer la construction
+            Mode d'emploi:
+                - Passer en mode construction
+                - Définir l'angle et la position de Snap Build (touches par défaut ALT+5 et ALT+6)
+                - Sélectionnez le bâtiment à placer
+                - Définir la rotation du bâtiment (par défaut avec le clic droit de la souris ou RB/LB sur la manette)
+                - Placer la construction
 
-             Journal des modifications v1.1.0.0:
-                 - Ajout de plus d'options d'angle d'accrochage
-                 - Ajout de plus d'options d'espacement de la grille d'accrochage
-                 - Version ModDesc augmentée
-                 - Améliorations mineures des performances
-                 - Ajout d'instructions dans la description]]>
+            Journal des modifications v1.1.0.0:
+                - Ajout de plus d'options d'angle d'accrochage
+                - Ajout de plus d'options d'espacement de la grille d'accrochage
+                - Version ModDesc augmentée
+                - Améliorations mineures des performances
+                - Ajout d'instructions dans la description
+                 
+            Pour plus d'informations, des suggestions ou une assistance, veuillez visiter <a href="https://github.com/falkkor-io/FS22_snapBuild">GitHub</a>.]]>
         </fr>
     </description>
     
